@@ -21,6 +21,8 @@
 .nav-link h2 {
     font-size: 1.25rem;
     cursor: pointer;
+    color: var(--clr-grey-10);
+    text-decoration: none;
 }
 
 .nav-link h2:hover {
@@ -31,4 +33,8 @@
    .nav-link h2 {
         font-size: 1.5rem;
     }
+
+   .navlinks-container {
+    margin-left: -3rem;
+   }
 }

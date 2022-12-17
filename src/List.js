@@ -8,6 +8,7 @@ function List() {
 
   return (
     <section>
+   
     {
         list.map((item) => 
 <Single_Item key = {item.id} {...item}/>
